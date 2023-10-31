@@ -1,0 +1,394 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*
+{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container
+{
+  border: none; 
+}
+
+/* -------------------brand delete and update components starts-------------- */
+.container2
+{
+  width: 300px;
+margin: auto;
+margin-top: 25px;
+}
+.button2
+{
+  margin-left: 5px;
+}
+/* -------------brand delete and update components ends-------------- */
+
+.grid1
+{
+  display: inline;
+}
+footer
+{
+  text-align: center;
+}
+
+/*------------------- homepage component starts-------------- */
+
+
+
+.display
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.mains
+{
+  display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+.mains2
+{
+  margin: 0;padding: 0;
+}
+
+.card
+{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.p
+{
+  font-size: 10px;
+}
+
+ul.list-group.list-group-flush {
+  height: 100%;
+}
+li.list-group-item {
+  height: 150px;
+}
+
+
+.back
+{
+  width: 100%;
+}
+
+.dropdown
+{
+  /* background-image: url(/public/shopping-carts-blue-background-with-copy-space.jpg); */
+  background-size: cover;
+  background-position-y:center;
+  
+}
+
+
+.products
+{
+  /* background-image: url(/public/8275340.jpg); */
+}
+p
+{
+  padding: 0;
+}
+
+
+.heading
+{
+  text-align: center;
+}
+
+.review-button
+{
+  margin-bottom: 5px;
+}
+/*------------------- homepage component ends-------------- */
+
+
+
+
+
+
+
+h3,h4
+{
+  text-align: center;
+}
+
+.form-label
+{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* ----------admin review component starts----------- */
+.btn-asc
+{
+  display: flex;
+  flex-direction: row; 
+  
+}
+/* admin review component */
+.btn-asc1
+{
+  margin-right: 5px;
+}
+/* ----------admin review component ends----------- */
+
+
+
+
+
+
+/* ----------user review component starts--------- */
+
+
+/* Custom CSS for hiding default radio button and styling icons */
+.star-rating {
+  display: inline-block;
+  
+  
+  
+}
+.star-rating i {
+  color: #fff; /* Default star color */
+  cursor: pointer;
+  padding: 0 5px;
+  
+}
+
+.star-rating input[type="checkbox"] {
+  display: none; /* Hide the radio buttons */
+}
+
+
+.star-rating input[type="checkbox"]:checked ~ label i {
+  
+  color:#FFD700; /* Change the color of the selected stars */
+}
+
+
+.page
+{
+  width: 100px;
+}
+.pagination
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#page1
+{
+  font-weight: bold;
+  margin-top: 5px;
+}
+/* ----------user review component ends----------- */
+
+
+
+
+/* ----------Head component starts----------- */
+.heads
+{
+  background-color:#2874f0;
+}
+.heads1
+{
+  color: black;
+  background-color: #FFD700;
+}
+
+.navbar-nav .nav-link
+{
+  color: #FFF;
+  font-weight: 500;
+}
+/* ----------Head component ends----------- */
+
+
+
+
+/* ----------Registrationmain component starts---------- */
+.body {
+  padding: 15px 10px;
+  /* background-image: url(/public/3386851.jpg); */
+  background-size: contain;
+  margin-top: -5px;
+  height: 99vh;
+
+}
+.average-rating
+{
+  text-align: center;
+}
+.body1
+{
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+}
+.al
+{
+  width: 200px;
+}
+
+/* ----------Registrationmain component ends---------- */
+
+
+/* Loginmain and adminlogin component */
+.body2
+{
+  padding: 15px 10px;
+
+}
+.body1
+{
+  width: 300px;
+}
+.rating-stars
+{
+  display: inline-block;
+ 
+}
+
+
+/* Adminlogin component */
+.body6
+{
+  /* background-image: url(/public/rm314-adj-03.jpg); */
+  height: 99vh;
+  background-size: cover;
+  margin-top: -5px;
+}
+
+/* loginmain component */
+.body3
+{
+  /* background-image: url(/public/6070859.jpg); */
+  height: 99vh;
+  background-size: cover;
+  margin-top: -5px;
+}
+
+
+.error
+{
+  text-align: center;
+  color: red;
+}
+/* product and brand component */
+.body5
+{
+  /* background-image: url(/public/vintage-grunge-blue-concrete-texture-studio-wall-background-with-vignette.jpg); */
+  text-align: center;
+}
+#name
+{
+  margin: auto;
+}
+.body5 h3
+{
+  color: white;
+}
+.body5 h5
+{
+  color: white;
+  text-align: center;
+}
+/* all forms in components */
+form {
+  margin: auto;
+  text-align: center;
+  background-color: rgb(0, 195, 255);
+  width: 400px;
+  height: auto;
+  padding: 8px 20px;
+  max-width: 100%;
+  border-radius: 10px;
+  font-size: small;
+}
+.reviews
+{
+  margin: auto;
+  
+  background-color: navajowhite;
+  
+}
+.reviews h4
+{
+  font-size: 10px;
+}
+.reviews h5
+{
+  font-size: 12px;
+}
+
+h1,
+p {
+  margin-bottom: 3px;
+  color: black;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 5px;
+}
+
+/* placeholder */
+.cursor-left
+{
+  text-align: left;
+}
+
+.display-6
+{
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  
+}
+@media (max-width: 541px)
+ {
+  .display
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-toggler-icon
+  {
+    color: #FFD700;
+  }
+ }
